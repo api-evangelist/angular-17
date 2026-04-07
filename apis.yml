@@ -8,11 +8,11 @@ modified: '2024-01-17'
 specificationVersion: '0.18'
 url: https://angular.io/api
 tags:
-  - Web Framework
-  - TypeScript
+  - Frontend Framework
   - JavaScript
   - Single Page Application
-  - Frontend Framework
+  - TypeScript
+  - Web Framework
 apis:
   - name: Angular Core API
     description: >-
@@ -22,10 +22,10 @@ apis:
     humanUrl: https://angular.io/api/core
     baseUrl: https://angular.io
     tags:
-      - Core
       - Components
-      - Directives
+      - Core
       - Dependency Injection
+      - Directives
     properties:
       - type: Documentation
         url: https://angular.io/docs
@@ -40,9 +40,9 @@ apis:
     humanUrl: https://angular.io/api/common
     baseUrl: https://angular.io
     tags:
+      - Common Utilities
       - Directives
       - Pipes
-      - Common Utilities
     properties:
       - type: Documentation
         url: https://angular.io/api/common
@@ -55,9 +55,9 @@ apis:
     humanUrl: https://angular.io/api/router
     baseUrl: https://angular.io
     tags:
-      - Routing
-      - Navigation
       - Guards
+      - Navigation
+      - Routing
     properties:
       - type: Documentation
         url: https://angular.io/api/router
@@ -70,9 +70,9 @@ apis:
     humanUrl: https://angular.io/api/forms
     baseUrl: https://angular.io
     tags:
+      - Form Controls
       - Forms
       - Validation
-      - Form Controls
     properties:
       - type: Documentation
         url: https://angular.io/api/forms
@@ -85,9 +85,9 @@ apis:
     humanUrl: https://angular.io/api/common/http
     baseUrl: https://angular.io
     tags:
+      - API Client
       - HTTP
       - REST
-      - API Client
     properties:
       - type: Documentation
         url: https://angular.io/api/common/http
@@ -116,8 +116,8 @@ apis:
     baseUrl: https://angular.io
     tags:
       - Browser
-      - Platform
       - DOM
+      - Platform
     properties:
       - type: Documentation
         url: https://angular.io/api/platform-browser
@@ -129,8 +129,8 @@ apis:
     humanUrl: https://angular.io/guide/signals
     baseUrl: https://angular.io
     tags:
-      - Signals
       - Reactivity
+      - Signals
       - State Management
     properties:
       - type: Documentation
