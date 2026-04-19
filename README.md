@@ -1,153 +1,144 @@
 # Angular 17 (angular-17)
-Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages
 
-**URL:** [Visit APIs.json URL](https://angular.io/api)
+Angular 17 is a major release of the Angular TypeScript framework, released November 8, 2023. Key features include stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading, new built-in control flow syntax (@if, @for, @switch) that is approximately 30% faster than NgIf/NgFor, improved server-side rendering with non-destructive hydration, View Transitions API support, and a new application builder powered by Vite and esbuild.
+
+**URL:** [https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Access:** Open Source
 
 ## Tags:
 
- - Web Framework, TypeScript, JavaScript, Single Page Application, Frontend Framework
+ - Deferrable Views, Framework, Frontend, JavaScript, Open Source, Signals, Single Page Application, TypeScript, Web Development
 
 ## Timestamps
 
-- **Created:** 2024-01-17 
-- **Modified:** 2024-01-17 
+- **Created:** 2023-11-08
+- **Modified:** 2026-04-19
 
 ## APIs
 
-### Angular Core API
-Core functionality of Angular including components, directives, dependency injection, and lifecycle hooks
+### Angular 17 Core API
 
-**Human URL:** [https://angular.io/api/core](https://angular.io/api/core)
+Core Angular 17 framework APIs featuring stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading template dependencies, new built-in control flow syntax (@if, @for, @switch), and improved server-side rendering. Released November 8, 2023.
 
-
-#### Tags:
-
- - Core, Components, Directives, Dependency Injection
-
-#### Properties
-
-- [Documentation](https://angular.io/docs)
-- [OpenAPI](https://angular.io/api/core)
-- [Guides](https://angular.io/guide/architecture)
-
-### Angular Common API
-Common directives, pipes, and location services used across Angular applications
-
-**Human URL:** [https://angular.io/api/common](https://angular.io/api/common)
-
+**Human URL:** [https://v17.angular.io/api/core](https://v17.angular.io/api/core)
 
 #### Tags:
 
- - Directives, Pipes, Common Utilities
+ - Change Detection, Components, Decorators, Deferrable Views, Dependency Injection, Framework, Signals, Standalone Components, TypeScript
 
 #### Properties
 
-- [Documentation](https://angular.io/api/common)
-- [Guides](https://angular.io/guide/common)
+- [Documentation](https://v17.angular.io/api/core)
+- [GitHub](https://github.com/angular/angular)
 
-### Angular Router API
-Navigation and routing capabilities for Angular applications
+### Angular 17 Common API
 
-**Human URL:** [https://angular.io/api/router](https://angular.io/api/router)
+Common Angular 17 directives and pipes. Many NgIf/NgFor use cases are replaced by the new built-in control flow syntax in Angular 17.
 
+**Human URL:** [https://v17.angular.io/api/common](https://v17.angular.io/api/common)
 
 #### Tags:
 
- - Routing, Navigation, Guards
+ - Directives, Pipes, Utilities
 
 #### Properties
 
-- [Documentation](https://angular.io/api/router)
-- [Guides](https://angular.io/guide/router)
+- [Documentation](https://v17.angular.io/api/common)
 
-### Angular Forms API
-Template-driven and reactive forms functionality for building complex form interactions
+### Angular 17 Router API
 
-**Human URL:** [https://angular.io/api/forms](https://angular.io/api/forms)
+Angular 17 routing and navigation APIs with View Transitions API support for animated page transitions.
 
+**Human URL:** [https://v17.angular.io/api/router](https://v17.angular.io/api/router)
 
 #### Tags:
 
- - Forms, Validation, Form Controls
+ - Guards, Navigation, Routing
 
 #### Properties
 
-- [Documentation](https://angular.io/api/forms)
-- [Guides](https://angular.io/guide/forms-overview)
+- [Documentation](https://v17.angular.io/api/router)
 
-### Angular HTTP Client API
-HTTP client for making requests to backend services
+### Angular 17 Forms API
 
-**Human URL:** [https://angular.io/api/common/http](https://angular.io/api/common/http)
+Angular 17 forms APIs with typed reactive forms and signal-based form integration improvements.
 
+**Human URL:** [https://v17.angular.io/api/forms](https://v17.angular.io/api/forms)
 
 #### Tags:
 
- - HTTP, REST, API Client
+ - Forms, Reactive Forms, Typed Forms, Validation
 
 #### Properties
 
-- [Documentation](https://angular.io/api/common/http)
-- [Guides](https://angular.io/guide/http)
+- [Documentation](https://v17.angular.io/api/forms)
 
-### Angular Animations API
-Animation support for creating sophisticated animations in Angular applications
+### Angular 17 HTTP Client API
 
-**Human URL:** [https://angular.io/api/animations](https://angular.io/api/animations)
+Angular 17 HTTP client with functional interceptors and improved SSR hydration support.
 
+**Human URL:** [https://v17.angular.io/api/common/http](https://v17.angular.io/api/common/http)
 
 #### Tags:
 
- - Animations, Transitions, UI Effects
+ - HTTP, Interceptors, REST
 
 #### Properties
 
-- [Documentation](https://angular.io/api/animations)
-- [Guides](https://angular.io/guide/animations)
+- [Documentation](https://v17.angular.io/api/common/http)
 
-### Angular Platform Browser API
-Browser-specific implementations and utilities for running Angular in web browsers
+### Angular 17 Platform Server API
 
-**Human URL:** [https://angular.io/api/platform-browser](https://angular.io/api/platform-browser)
+Angular 17 server-side rendering APIs with significant SSR improvements including hydration, non-destructive hydration support, and new application builder with Vite and esbuild integration.
 
+**Human URL:** [https://v17.angular.io/api/platform-server](https://v17.angular.io/api/platform-server)
 
 #### Tags:
 
- - Browser, Platform, DOM
+ - Hydration, SSR, Server-Side Rendering
 
 #### Properties
 
-- [Documentation](https://angular.io/api/platform-browser)
+- [Documentation](https://v17.angular.io/api/platform-server)
+- [Guide](https://v17.angular.io/guide/ssr)
 
-### Angular Signals API
-Reactive primitive for fine-grained reactivity and state management (new in Angular 17)
+### Angular 17 CDK API
 
-**Human URL:** [https://angular.io/guide/signals](https://angular.io/guide/signals)
+Angular 17 Component Dev Kit providing behavior primitives for building custom accessible UI components.
 
+**Human URL:** [https://v17.material.angular.io/cdk/categories](https://v17.material.angular.io/cdk/categories)
 
 #### Tags:
 
- - Signals, Reactivity, State Management
+ - Accessibility, CDK, Components
 
 #### Properties
 
-- [Documentation](https://angular.io/guide/signals)
-- [API Reference](https://angular.io/api/core#signals)
+- [Documentation](https://v17.material.angular.io/cdk/categories)
+- [GitHub](https://github.com/angular/components)
 
 ## Common Properties
 
+- [Documentation](https://v17.angular.io/)
 - [GitHub](https://github.com/angular/angular)
-- [Blog](https://blog.angular.io)
-- [Twitter](https://twitter.com/angular)
-- [Discord](https://discord.gg/angular)
+- [Changelog](https://github.com/angular/angular/releases/tag/17.0.0)
+- [Blog](https://blog.angular.dev/introducing-angular-v17-4d7033312e4b)
+- [Guide](https://v17.angular.io/guide/defer)
+- [Guide](https://v17.angular.io/guide/signals)
+- [Guide](https://v17.angular.io/guide/control_flow)
+- [PackageRegistry](https://www.npmjs.com/package/@angular/core)
+- [License](https://github.com/angular/angular/blob/main/LICENSE)
+- [Contributing](https://github.com/angular/angular/blob/main/CONTRIBUTING.md)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/angular)
-- [CLI Documentation](https://angular.io/cli)
-- [Tutorial](https://angular.io/tutorial)
-- [Release Notes](https://github.com/angular/angular/releases)
-- [Roadmap](https://angular.io/roadmap)
+- [Discord](https://discord.gg/angular)
+- [X](https://twitter.com/angular)
 
 ## Maintainers
 
-**FN:** Google Angular Team
+**FN:** API Evangelist
 
-**Email:** angular-core@google.com
+**Email:** info@apievangelist.com
