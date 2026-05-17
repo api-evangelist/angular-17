@@ -145,7 +145,7 @@ common:
     type: GitHub
   - url: https://github.com/angular/angular/releases/tag/17.0.0
     name: Angular 17 Release Notes
-    type: Changelog
+    type: ChangeLog
   - url: https://blog.angular.dev/introducing-angular-v17-4d7033312e4b
     name: Angular v17 Announcement Blog Post
     type: Blog
