@@ -137,6 +137,8 @@ type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: Open Source
 common:
+  - type: DomainSecurity
+    url: security/angular-17-domain-security.yml
   - url: https://v17.angular.io/
     name: Angular 17 Documentation
     type: Documentation
