@@ -10,9 +10,12 @@
     },
     {
       "source": "https://blog.angular.dev/introducing-angular-v17-4d7033312e4b",
-      "error": "HTTPError"
+      "feed_url": "https://blog.angular.dev/introducing-angular-v17-4d7033312e4b",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 23,
-  "fetched": "2026-08-15T12:22:01Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
